@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Syncopate:wght@700&display=swap');
+@import "colors.less";
+@import "fonts.less";
+
+.full-width() {
+   width: 100%;
+}
+
+body {
+   box-sizing: border-box !important;
+   transition: ease all 0.5s;
+   width: @base-font-size * 64;
+   height: 100%;
+   color: @black;
+   font-size: @body-font-size;
+   font-family: @body-font;
+   line-height: @body-font-weight;
+   font-weight: normal;
+   overflow-x: hidden;
+}
+
+.collection_text {
+   .full-width();
+   float: left;
+   margin-top: 40px;
+}
+
+.about_main {
+   .full-width();
+   float: left;
+
+   .collection_section {
+      .full-width();
+      float: left;
+
+      .container {
+         .full-width();
+         float: left;
+         font-size: @text-font-size;
+         color: @racing-red;
+         margin-top: 40px;
+         padding-top: 40px;
+         padding-bottom: 30px;
+
+         .new_text {
+            width: 100%;
+            float: left;
+            font-size: 30px;
+            color: @racing-red;
+            padding-bottom: 30px;
+         }
+
+         .consectetur_text {
+            width: 100%;
+            float: left;
+            font-size: @text-font-size;
+            color: @racing-red;
+            margin-left: 0;
+            padding-bottom: 30px;
+         }
+      }
+   }
+
+   &.layout_padding {
+      padding-top: 0;
+   }
+
+   .collectipn_section_3 {
+      .full-width();
+      float: left;
+      padding-top: 0;
+
+      &.layout_padding {
+         margin-left: 0;
+         margin-bottom: 0;
+         padding-top: 0;
+         padding-bottom: 100px;
+         margin-right: 100px;
+      }
+
+      .container {
+         .full-width();
+
+         .racing_shoes {
+            .full-width();
+            float: left;
+            background-color: @footer-border;
+            height: auto;
+            padding-top: 70px;
+            padding-bottom: 100px;
+            margin-bottom: 100px;
+
+            .row {
+               margin-top: 40px;
+
+               .col-md-8,
+               .col-md-4 {
+                  float: left;
+               }
+
+               .shoes-img3 {
+                  width: 100%;
+                  margin: 40px 0;
+               }
+
+               .sale_text {
+                  width: 100%;
+                  float: left;
+                  font-size: @footer-font-size;
+                  color: @racing-red;
+                  text-align: center;
+                  text-transform: uppercase;
+                  font-weight: bold;
+                  background-color: @white;
+                  padding: 30px 0;
+
+                  span {
+                     color: @black;
+                  }
+               }
+
+               .number_text {
+                  width: 100%;
+                  float: left;
+                  font-size: 40px;
+                  color: @racing-red;
+                  line-height: 75px;
+
+                  span {
+                     color: @black;
+                  }
+               }
+
+               .seemore {
+                  width: 140px;
+                  height: 50px;
+                  color: @white;
+                  background-color: @racing-red;
+                  font-family: @button-font;
+                  font-size: @button-font-size;
+                  font-weight: @button-font-weight;
+                  line-height: 50px;
+                  text-align: center;
+                  text-transform: uppercase;
+                  margin-top: 35px;
+                  margin-bottom: 35px;
+                  border: 0;
+                  border-radius: 4px;
+               }
+            }
+         }
+      }
+   }
+}
+
+.collection_section {
+   .full-width();
+   float: left;
+}
+
+.collection_section_3 {
+   .full-width();
+   height: 50px;
+   color: @racing-red;
+   background-color: @racing-red;
+   font-size: 0.17em;
+   margin-top: 35px;
+}
+
+.copyright {
+   .full-width();
+   float: left;
+   font-size: @footer-font-size;
+   text-align: center;
+   padding: 30px 0;
+   background-color: @footer-black;
+   color: @racing-red;
+   font-family: Poppins;
+}
